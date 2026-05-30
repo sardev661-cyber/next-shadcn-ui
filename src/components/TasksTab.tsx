@@ -291,7 +291,6 @@ export function TasksTab({ tasks, projects, members, onAdd, onUpdate, onDelete }
                       selected={deadline}
                       onSelect={d => { setDeadline(d); setCalOpen(false) }}
                       locale={es}
-                      fromDate={new Date()}
                     />
                   </PopoverContent>
                 </Popover>
